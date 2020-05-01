@@ -1,0 +1,397 @@
+
+body {
+    font-family:'Noto Sans JP', ;
+    min-height: 75rem;
+    padding-top: 0rem;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+      font-family: 'Noto Sans JP'!important ;
+      font-weight: bold;
+      
+  }
+  
+  p {
+      font-size: 18px;
+      font-family: 'Noto Sans JP'!important;
+  }
+  ul li{
+    font-family: 'Noto Sans JP'!important;
+    font-size: 18px;
+    
+  
+  }
+  ol li{
+    font-family: 'Noto Sans JP'!important;
+    font-size: 18px;
+  
+  }
+  
+  /*Inicio estilos componente menu*/
+  .navbar-brand{
+    top:0.5 !important;
+    left:40px!important;
+  }
+
+  .font li a{
+    color: #1f86fc!important;
+  }
+  .font li a:hover{
+    color: white !important;
+  }
+ 
+  .barra{
+    background-color:#024cb5 !important;
+    
+  }
+
+ 
+  .redes a{
+    color:white !important;
+    font-size: 30px !important;
+  
+  }
+  
+  .redes a:hover{
+    color:#f5c205 !important;
+    font-size: 30px !important;
+  
+  }
+  
+  
+ 
+  
+  .adress label{
+    color:white;
+    font-size: 32px;
+    left:30px;
+  }
+  
+  .adress label:hover{
+    color:#f5c205;
+  }
+  
+  .adress p {
+    color:white;
+    font-size:18px;
+  }
+  
+  /*fin estilos componente
+  
+  
+ 
+  
+    /*Inicio estilos compomente home*/
+
+  
+  .hero-img{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      width:100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+ 
+  
+  .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+            min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color:white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  .boton{
+    position: absolute !important;
+      left: 40px !important;
+      bottom:10px !important;
+      background-color:#f5c205 !important;
+      opacity: 0,3 !important;
+  }
+
+   .boton hr{
+  
+      color:#024cb5 !important;
+     
+  }
+  
+ 
+  .button-jumbotron{
+    background-color: #024cb5 !important;
+    color:white !important;
+  }
+
+  .button-jumbotron:hover{
+    background-color: #1f86fc !important;
+    color:black !important;
+
+  }
+  /*Fin estilos componente home*/
+
+
+
+    /*Inicio estilos componente agendar*/
+
+    .agendar{
+      background-color:#024cb5;
+      width:100%;
+    }
+
+    .cotizar{
+      background-color:#1f86fc;
+    }
+    .agendar p{
+      color:white;
+    }
+    .agendar h1{
+      color:white !important ;
+      font-weight: bold;
+    }
+    .agendar h2{
+      color:white !important ;
+      font-weight: bold;
+    }
+    .cotizar h1{
+      color:white !important ;
+      font-weight: bold;
+
+    }
+    .cotizar p{
+      color:white !important ;
+      font-weight: bold;
+
+    }
+
+    .agendar-boton{
+    background-color:#f5c205!important;
+    Color:black!important;
+    font-weight: bold!important;
+    box-shadow: rgba(0,0,0,0.7)!important;
+
+    }
+
+    .agendar-boton:hover{
+      background-color:#024cb5!important;
+      Color:white!important;
+      font-weight: bold!important;
+      box-shadow: rgba(0,0,0,0.7)!important;
+  
+      }
+  
+    
+    /*Fin estilos componente agendar*/
+    
+
+
+
+  
+ 
+  
+  
+ 
+  
+  
+ 
+  
+    /*Inicio estilos footer*/
+    hr { 
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: auto;
+      margin-right: 10px;
+      border-style: ridge;
+      border-width: 2px;
+      color:#1ff5f5!important;
+    } 
+    
+    
+    .footer{
+      background-color:#024cb5;
+      list-style: none;
+      color:white;
+    }
+    .adress-fondo{
+      background-color:rgba(0,0,0,0.1);
+      list-style: none;
+      color:white;
+    }
+    
+    .footer-icons label{
+      font-size:30px;
+      color:white;
+    
+    }
+  
+  
+    .footer-icons label:hover{
+      font-size:30px;
+      color:#F5C205;
+    
+    }
+  
+  
+  
+    /*fin estilos footer*/
+  
+  
+  /* inicio Estilos componente beneficios*/
+  
+  .contenedor-beneficios{
+  background-color:#1f86fc;
+  }
+  
+  
+  .beneficios{
+    background-color:#1f86fc;
+    color:white;
+    
+  }
+  .beneficios label{
+    font-size: 80px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 75px 75px 75px 75px;
+  }
+  
+  
+  
+  .beneficios label:hover{
+    background-color: white;
+    color:#024cb5;
+  
+  }
+  /*Fin estilos componente Beneficios*/
+  
+  /*Inicio estilos componente servicios*/
+  
+  .title-servicios{
+    color:#024cb5;
+    background-color: white;
+    font-size: 65px;
+  
+    
+  }
+  
+  .servicios{
+    background-color:#1f86fc;
+  
+  }
+  .contenedor-servicios{
+  background-color:#024cb5;
+    
+  }
+  
+
+ 
+  
+  .menu-vertical a{
+    color:white;
+    font-size: 20px;
+    background-color:#024cb5;
+   ;
+    
+  
+  }
+  .menu-vertical a:hover{
+    color:black;
+    background-color: #1f86fc;
+    
+  }
+  
+
+  .alert-primary{
+    background-color:rgba(45,170,252,0.3) !important;
+    color:white!important;
+    font-size:20px!important;
+  
+  
+  }
+  
+  .alert-primary label{
+    color:#F5C205!important;
+    font-size: 28px;
+  
+  }
+  .font-servicios h3{
+    color:white!important;
+    font-weight: 600!important;
+    
+  }
+  .font-servicios h4{
+    color:whitesmoke!important;
+    font-weight: 700!important;
+    
+  }
+  
+  
+  
+  
+  
+  .font-servicios ul li{
+    color:black;
+    font-size:15px;
+    font-weight: 500;
+    
+  }
+  
+  /** INICO Estilos  generales landing pages**/
+  .descripcion-fondo{
+    background-color:#024cb5;
+  }
+  .font-descripcion h3{
+    color: white;
+    font-weight:bold;
+
+  }
+  .font-descripcion h4{
+    color: white;
+    font-weight: bold;
+  }
+
+
+  .font-descripcion p{
+    color: white;
+    font-size: 18px;
+
+  }
+  .font-descripcion ul li{
+   
+    list-style-image: url(/imagenes/flecha-amarilla.png);
+    color:white;
+ 
+   
+  }
+  
+  .descripcion{
+   
+      bottom:1px;
+      background-color:#f5c205;
+      vertical-align: middle !important;
+    
+  }
+ 
+
+.form-background{
+  background-color:#1ff575;
+}
+    /** fIN Estilos  generales landing pages**/
+
+    /**Inicio estilos formulario **/
+    .formulario{
+      background-color:#1f86fc;
+    }
+    
+/**fin estilos formulario**/
