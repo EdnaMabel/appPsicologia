@@ -395,3 +395,35 @@ body {
     }
     
 /**fin estilos formulario**/
+
+
+/**Inicio estilos blog**/
+.slider{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider-contenido{
+  position: absolute !important;
+  
+
+    
+    
+}
+.boton-slider{
+  background-color: #f5c205!important;
+  color:black!important;
+
+}
+
+.boton-slider:hover{
+  background-color:#024cb5!important; 
+  color:#f5c205!important;
+
+
+
+/**Fin estilos Blog**/
