@@ -1,6 +1,6 @@
 
 body {
-    font-family:'Noto Sans JP', ;
+    font-family:'Noto Sans JP'!important;
     min-height: 75rem;
     padding-top: 0rem;
   }
@@ -48,13 +48,13 @@ body {
  
   .redes a{
     color:white !important;
-    font-size: 30px !important;
+    font-size: 26px !important;
   
   }
   
   .redes a:hover{
-    color:#f5c205 !important;
-    font-size: 30px !important;
+    color: #f5c205  !important;
+    font-size: 26px !important;
   
   }
   
@@ -63,17 +63,17 @@ body {
   
   .adress label{
     color:white;
-    font-size: 32px;
-    left:30px;
+    font-size: 26px;
+    left:32px;
   }
   
   .adress label:hover{
-    color:#f5c205;
+    color:#f5c205 ;
   }
   
   .adress p {
     color:white;
-    font-size:18px;
+    font-size:16px;
   }
   
   /*fin estilos componente
@@ -123,7 +123,7 @@ body {
 
    .boton hr{
   
-      color:#024cb5 !important;
+      color:#024cb5!important;
      
   }
   
@@ -207,13 +207,13 @@ body {
   
     /*Inicio estilos footer*/
     hr { 
-      display: block;
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-      margin-left: auto;
-      margin-right: 10px;
-      border-style: ridge;
-      border-width: 2px;
+      display: block!important;
+      margin-top: 0.5em!important;
+      margin-bottom: 0.5em!important;
+      margin-left: auto!important;
+      margin-right:30px!important;
+      border-style: solid!important;
+      border-width: 2px!important;
       color:#1ff5f5!important;
     } 
     
@@ -241,8 +241,30 @@ body {
       color:#F5C205;
     
     }
+  .lista-footer a{
+  color:white;
+
+  }
   
-  
+  .appwhatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width:60px;
+    z-index:1000;
+
+
+  }
+
+
+  .appwhatsapp img{
+    width:100%;
+    height: auto;
+   
+
+
+  }
+
   
     /*fin estilos footer*/
   
