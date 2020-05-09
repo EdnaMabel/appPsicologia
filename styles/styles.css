@@ -249,7 +249,7 @@ body {
   .appwhatsapp{
     position: fixed;
     right: 20px;
-    bottom: 30px;
+    bottom: 20px;
     width:60px;
     z-index:1000;
 
@@ -390,9 +390,8 @@ body {
 
   }
   .font-descripcion ul li{
-   
-    list-style-image: url(/imagenes/flecha-amarilla.png);
-    color:white;
+   list-style-image: url(/imagenes/flecha-amarilla.png)!important;
+    color:white!important;
  
    
   }
@@ -408,6 +407,10 @@ body {
 
 .form-background{
   background-color:#1ff575;
+}
+
+.privacidad{
+  color:black;
 }
     /** fIN Estilos  generales landing pages**/
 
@@ -446,6 +449,12 @@ body {
   background-color:#024cb5!important; 
   color:#f5c205!important;
 
+}
 
-
+.blog-background{
+  background-color: #1f86fc;
+}
+.blog{
+  background-color: white;
+}
 /**Fin estilos Blog**/
