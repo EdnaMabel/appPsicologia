@@ -34,10 +34,16 @@ body {
   }
 
   .font li a{
-    color: #1f86fc!important;
+    color: white!important;
+
   }
   .font li a:hover{
-    color: white !important;
+    color:black!important;
+   
+   
+  }
+  .dropdown-menu{
+    background-color: #1f86fc!important;
   }
  
   .barra{
@@ -94,7 +100,7 @@ body {
   }
  
   
-  .dropdown {
+ /* .dropdown {
       position: relative;
       display: inline-block;
     }
@@ -112,7 +118,7 @@ body {
       padding: 12px 16px;
       text-decoration: none;
       display: block;
-    }
+    }*/
   .boton{
     position: absolute !important;
       left: 40px !important;
@@ -138,6 +144,7 @@ body {
     color:black !important;
 
   }
+ 
   /*Fin estilos componente home*/
 
 
@@ -249,7 +256,7 @@ body {
   .appwhatsapp{
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 150px;
     width:60px;
     z-index:1000;
 
@@ -390,11 +397,12 @@ body {
 
   }
   .font-descripcion ul li{
-   list-style-image: url(/imagenes/flecha-amarilla.png)!important;
-    color:white!important;
+    list-style-image: url(../imagenes/flecha-amarilla.png);
+    color:white;
  
    
   }
+  
   
   .descripcion{
    
@@ -423,7 +431,7 @@ body {
 
 
 /**Inicio estilos blog**/
-.slider{
+/**.slider{
   position: relative;
   display: inline-block;
   text-align: center;
@@ -431,7 +439,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+**/
 .slider-contenido{
   position: absolute !important;
   
@@ -457,4 +465,5 @@ body {
 .blog{
   background-color: white;
 }
+
 /**Fin estilos Blog**/

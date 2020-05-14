@@ -20,6 +20,18 @@
 <meta name="msapplication-config" content="favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 <!--Fin links favicon-->
+
+
+<style>
+  .slider{
+  background:url("imagenes/slider-blog.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+}
+</style>
+
 </head>
 <body>
   <div class="container-fluid">
@@ -27,7 +39,7 @@
       <div class=" barra nav row">
       
         <div class=" col-12 col-md-6 font-weight-bold d-flex d-flex-row adress mt-1">
-           <label class="icon-home ml-5"></label> <p class="mt-2">Consultorio: Cra 10B # 182 A 48, Usaquén Bogotá, Colombia</p>
+           <label class="icon-home ml-md-5"></label> <p class="mt-2">Consultorio: Cra 10B # 182 A 48, Usaquén Bogotá, Colombia</p>
         </div>
         
         <div class=" col-12 col-md-4 font-weight-bold d-flex d-flex-row adress mt-1"><label class="icon-phone"> </label> <p class="mt-2">Teléfono: 3017710142</p></div>
@@ -47,7 +59,7 @@
         <div class=" barra row justify-content-end">
           <nav class="navbar navbar-expand-lg navbar-light ">
                   
-             <a class=" navbar-brand mr-5s"><img src="imagenes/Logo-misterapias.png" alt="logo"></a>
+             <a class=" navbar-brand mr-5"><img src="imagenes/Logo-misterapias.png" alt="logo"></a>
         
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -113,45 +125,28 @@
 
 
       <!--INICIO COMPONENTE BLOG-->
-      
-      
-      <div class="container-fluid ">
 
-        <div class="row">
-          <div class="slider d-flex justify-content-center align-items-center">
-            <img src="imagenes/slider-blog.jpg" class="img-fluid" alt="Responsive image">
-          
-            <div class=" slider-contenido col-12 col-md-4 col-lg-5 text-white ">
-              <h3 class="display-5"> ¿Quieres recibir los mejores contenidos sobre salud Emocional y Bienestar? </h3>
+      <div class="container-fluid slider d-flex flex-column  justify-content-center align-items-center">
+         <div class="text-center ">
+          <h3 class="display-5"> ¿Quieres recibir los mejores contenidos sobre salud Emocional y Bienestar? </h3>
               
-              <p class="font-italic font-weight-bold">¡Regístrate a nuestra newsletter!</p>
-
-              
-                <form action="" class="form-inline justify-content-center d-flex flex-column flex-sm-row">
-                  <div class="form-group mr-4">
-                    <input type="text" placeholder="Escribe aquí tu correo" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" class="btn boton-slider" value="Enviar">
-                  </div>
-                 
-                </form>
-
-
-             
-            
-           
-            </div>
+          <p class="font-italic font-weight-bold">¡Regístrate a nuestra newsletter!</p>
+         </div>
+     
+        <form action="" class="form-inline justify-content-center d-flex flex-column flex-sm-row">
+          <div class="form-group mr-4">
+            <input type="text" placeholder="Escribe aquí tu correo" class="form-control">
           </div>
-           
-          
-        </div>
-        
-      
+          <div class="form-group">
+            <input type="submit" class="btn boton-slider" value="Enviar">
+          </div>
+         
+        </form>
+
       </div>
-
-
-        
+      
+      
+ 
 
 
 
@@ -162,9 +157,9 @@
       <h3>Blog</h3>
       <p class="lead">Created by Edna Mabel García García</p>
       <hr>
-      
+      <br>
         <!--inicio articulos blog-->
-        <div class="row col-12 col-md-12">
+      <div class="row d-flex justify-content-center">
           <div class="card mr-5 mb-2" style="width: 18rem;">
             <img src="imagenes/blog-colegio.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -173,8 +168,8 @@
               <a href="blog_colegio.html" class="btn btn-primary">Leer más</a>
             </div>
           </div>
-
-          <div class="card mr-5 mb-2" style="width: 18rem;">
+  
+          <div class="card mr-5 mb-2 " style="width: 18rem;">
             <img src="imagenes/blog-miofuncional.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">¿Qué es la terapia Miofuncional?</h5>
@@ -184,7 +179,7 @@
               <a href="blog_miofuncional.html" class="btn btn-primary">Leer más</a>
             </div>
           </div>
-          <div class="card mr-5 mb-2" style="width: 18rem;">
+          <div class="card mr-5 mb-2 " style="width: 18rem;">
             <img src="imagenes/blog-lenguaje.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">¿Cómo podemos estimular el lenguaje en un niño?</h5>
@@ -193,6 +188,12 @@
             </div>
           </div>
         
+
+      
+        
+      </div>
+       
+          
           
 
     
@@ -201,7 +202,7 @@
         
         <!--fin articulos blog-->
         
-      </div>
+    
     </div>
       <!--FIN MAIN BLOG-->
 
@@ -249,7 +250,7 @@
       <br>
     
     
-      <div class=" row d-flex justify-content-center ml-5">
+      <div class=" row d-flex justify-content-center ml-md-5">
           <div class="col-md-4 mb-5">
               <div class="d-inline">
                   <label class="icon-location"></label>
@@ -328,7 +329,19 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  
-  
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5ebc4c3a8ee2956d73a0dc6e/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
   </body>
 
 </html>
