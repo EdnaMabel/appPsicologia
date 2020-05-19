@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!--Inicio link favicon-->
+    <!--Inicio link favicon-->
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -114,285 +114,27 @@
         
           <!--Fin  navbar-->
 
-          <div class="container-fluid ">
+        <!--inicio componente formulario-->
 
-
-
-            <div class="row">
-              <div class="hero-img"><img src="imagenes/landing-pruebas.jpg"  class="img-fluid" alt="Responsive image">
-          
-            
-              
-                <div class="jumbotron boton d-none d-md-block col-md-4 col-lg-5">
-                    <h3 class="display-5">Psicología, Terapía Ocupacional y Terapia de Lenguaje </h3>
-                    <p class="lead">Atención a niños, adolescentes y adultos.</p>
-                    <p class="font-italic font-weight-bold">"Servicio a Domicilio, en Consultorio u Online"</p>
-                  <hr class="my-2">
-                    <p>Encuentra el profesional que estás buscando Aquí.</p>
-                    <a href="formulario.html"class="btn button-jumbotron"   role="button">Cotizar</a>
-                  </div>
-                </div>
-            </div>
-            
-          
-          </div>
-        
-        
-          
-        <!--Inicio codigo genearl landing pages , descripcion del servicio-->
-        <div class="container-fluid descripcion-fondo ">
-        
-          <div class="row d-flex align-items-center" >
-            <div class=" col col-12 col-md-7 my-5 description font-descripcion">
-              <h3 class="text-center">Pruebas Psicológicas</h3>
-              <br>
+        <div class="container-fluid text-center justify-content-center d-flex align-items-center mensaje-enviado">
      
-              <br>
-         <ul class=" ml-5">
-          <li>Prueba de Coeficiente Intelectual.</li>
-          <li>Test de desarrollo infantil.</li>
-          <li>Test de atención y concentración.</li>
-          <li>Test  proyectivo de Rorschach.</li>
-          <li>Cuestionario de evaluación profesional y vocacional. </li>
-          <li>Test figura del Rey.</li>
-          <li>Cuestionario de personalidad para adolescentes.</li>
-          
-        </ul>
-        
-            </div>
-              
-            <div class=" col col-12 col-md-5 py-4">
-              <form action="enviar.php" method="POST" class=" descripcion py-3 rounded mr-5 my-5">
-                <h3 class="text-center">Agenda tu primera cita Aquí</h3>
-                <div class="row mb-2 mt-3 mx-2"> 
-                  <div class="col m">
-                    <input type="text" class="form-control" placeholder="Nombres" name="nombre" required>
+       
+                <div class="alert alert-info container mensaje-exito" role="alert">
+                    <h3>SU MENSAJE FUE ENVIADO, GRACIAS POR CONTACTARNOS!!!</h3>
+                    <a href="formulario.html">Enviar nuevo mensaje</a>
                   </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellidos" name="apellido" required>
-                  </div>
-                </div>
-                <div class="row my-2 mx-2">
-                  <div class="col">
-                    <input type="email" class="form-control" placeholder="Correo" name="correo" required>
-                  </div>
-                  <div class="col ">
-                    <input type="Tel" class="form-control" placeholder="Teléfono" name="telefono" required>
-                  </div>
-                </div>
-                <div class="row my-2 mx-2">
-                  <div class="form-group col">
-                
-                    <select id="inputState" class="form-control" name="servicio">
-                      <option selected>Seleccionar Servicio</option>
-                      <option>Terapia de Pareja</option>
-                      <option>Terapia Individual</option>
-                      <option>Psicología Infantil</option>
-                      <option>Psicología Adolescentes</option>
-                      <option>Asesoría en cambio de Colegio</option>
-                      <option>Terapia de Lenguaje</option>
-                      <option>Terapia Ocupacional</option>
-                    </select>
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Escribe tu Mensaje" name="mensaje" required>
-                  </div>
-                </div>
-                <div class="form-group ml-5 mt-2">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                    <label class="form-check-label" for="gridCheck">
-                    <a class="privacidad" href="privacidad.pdf"> Aceptar Términos y Condiciones.</a> 
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="btn button-jumbotron ml-5 ">AGENDAR</button>
-              </form>
-        
-        
-        
-            </div>
-        
-          </div>
-        </div>
-        
-        
-                                    
-        <!--Fin Codigo general langin pages -->
 
-
-   <!--INICIO COMPONENTE BENEFICIOS-->
-   <div class="container-fluid contenedor-beneficios">
-    <br>
-    <br>
-    <div class="container beneficios ">
-        <div class="row d-flex justify-content-center"><h1>¿Por qué elegirnos?</h1></div>
-        <br>
-        <br>
-        <div class="row">
-        <div class="col-md-3"><label class="icon-calendar-1"></label>
-            <h3>Agenda flexible</h3>
-            <p>Manejamos un agenda flexible donde cuentas con 3 opciones para tomar tus citas:</p>
-            <ol>
-                <li value="1">Atención a domicilio</li>
-                <li value="2">Atención en consultorio</li>
-                <li value="3">Consulta online</li>
-            </ol>
-        </div>
-        <div class="col-md-3"><label class="icon-gift"></label>
-        <h3>Experiencia</h3>
-        <p>9 años de experiencia ofreciendo programas terapeuticos a la medida del individuo, las familias y sus ambientes escolares.</p>
-        </div>
-        <div class="col-md-3"><label class="icon-clock"></label>
-        <h3>Horario flexible</h3>
-         <p>Nuestras Terapeutas estarán disponibles de Lunes a sábado en horario flexible de 7 am a 8 pm.</p></div>
-        <div class="col-md-3"><label class="icon-megaphone"></label>
-        <h3>Seguimiento</h3>
-         <p>Acompañamiento constante a pacientes y asesoría a toda la familia. Trabajamos en equipo junto con instituciones educativas.</p></div>
-        </div>
-        <br>
-        <br>
-        
-    </div>
-
-   
-
-</div>
-          
-
-          <!--FIN COMPONENETE BENEFICIOS-->
-<!--INICIO COMPONENTE AGENDAR-->
-<div class="bg-light" style="width: 100%; height: 70px;"></div>
-<div class="container-fluid">
-    <div class="row">
-        <div class=" col-12 col-md-7 agendar">
-          
-            <br>
-            <br>
-            <h1 class="text-center">¿Cómo adquirir nuestros servicios?</h1>
-            <br>
-            <h2 class="text-left ml-5">Solicita tu servicio de Asesoría Terapeutica con estos sencillos pasos: </h2>
-            <br>
-            <br>
-
-            <div class="ml-5"> 
-          
-                <div class="d-inline"><img src="imagenes/one.png" alt="one" width="50px" height="50px"></div>
-                <div class="d-inline"><p class="d-inline">   Cuéntanos tu motivo de consulta.</p>  </div>
-        
-            </div>
-            <br>
-            <br>
-
-            <div class="ml-5 "> 
-                <div class="d-inline"> <img src="imagenes/two.png" alt="two" width="50px" height="50px"> </div> 
-                <div class="d-inline "><p class="d-inline text-break ">   Escoge la modalidad que más se acomode a tus necesidades: 
-                    Consultorio, Domicilio u Online.</p></div> 
-            </div>
-          
-           <br>
-           <br>
-          <div class="ml-5">
-            <div class="d-inline"><img src="imagenes/three (1).png" alt="four" width="50px" height="50px"></div> 
-            <div class="d-inline"><p class="d-inline">   Escoge los horarios y fecha de  tu interés.</p> </div>
-         </div>
-
-         <br>
-         <br>
-        <div class="ml-5">
-            <div class="d-inline"><img src="imagenes/four.png" alt="one" width="50px" height="50px"></div>
-            <div class="d-inline"><p class="d-inline">   Recibe el servicio de asesoría por Psicología, Terapia Ocupacional o Fonoaudiología.</p> </div>
-        </div>
-        <br>
-     
-        
-    
         
 
-            </div>
-            
-    
-        <div class=" col-12 col-md-5 d-flex justify-content-end ">
-    
-            <img src="imagenes/Chica.jpg" alt="Responsive image" style="width:90%; height:700px;" >
-    
-        </div>
-    
-    </div>
-
-
-
-</div >
-<br>
-
-
-    <div class="container-fluid d-flex flex-column">
-        <div class=" row cotizar d-flex  align-items-center " >
-            <div class="ml-5 mt-3 mt-md-5 mb-md-5">
-                <h1 class="text-left font-italic  ml-5">¿Podemos ayudarte?</h1>
-            <p class="text-left font-italic">Escoge la modalidad que más se acomoda a tus necesidades: Domicilio, Consultorio u Online.</p>
-        
-            </div>
-            <div class=" col-12 col-md-4 d-flex justify-content-center justify-content-md-end mb-3 mb-md-5 mt-md-5 ">
-                <a href="formulario.html" class="btn agendar-boton "   role="button">AGENDA TU CITA</a>
-              
-              
-            </div>
-            
-            
-            
-        
-        </div>
-    </div>
-
-<!--FIN COMPONENTE AGENDAR-->
-
-<!--INICIO COMPONENTE TESTIMONIOS-->
-<div class="container-fluid">
-    <br>
-    <br>
-    <h1 class="text-center">Lo que nuestros pacientes opinan.</h1>
-    <br>
-    <br>
-    <div class="row d-flex justify-content-center ">
-        
-    
-        <div class="col-md-3">
-            <div class="justify-content-center"><img src="imagenes/estrellas.png" alt="estrellas" style="width:180px; height:90px;"></div>
-            <h3>Miriam Lozada</h3>
-            <p>"He recibido asesoría Psicológica para mi hija y el servicio ha sido muy bueno."</p> 
-            
         </div>
 
-
-
-        <div class="col-md-3">
-            <div class="justify-content-center"><img src="imagenes/estrellas.png" alt="estrellas" style="width:180px; height:90px;"></div>
-             <h3>Marcela Zambrano</h3>
-            <p>"Muy buenos profesionales y excelente trato. 100% recomendado" </p>
-               
-              
-        
-        </div>
-        <div class="col-md-3">
-            <div class="justify-content-center"><img src="imagenes/estrellas.png" alt="estrellas" style="width:180px; height:90px;"></div>
-            <h3>Andrea Sanchez</h3>
-            <p>El servicio de Psicología es excelente, nos han ayudado a mejorar y crecer como familia. Mil gracias!!!</p>
-  
-               
-        </div>
-        
-        </div>
-        </div>
     
 
+        <!--fin componente formulario-->
 
-    
-        <br>
-        <br>
-    
-    
-    <!--FIN COMPOENT TESTIMONIOS-->
+
+
+
 
 <!--INICIO COMPONENTE FOOTER-->
 
@@ -506,12 +248,15 @@
   
   <!--FIN COMPONENTE FOOTER-->
   
+
+    
           
    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!--Start of Tawk.to Script-->
+
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
   (function(){
@@ -524,6 +269,5 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
-  </body>
-
+</body>
 </html>

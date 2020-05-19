@@ -467,3 +467,15 @@ body {
 }
 
 /**Fin estilos Blog**/
+
+/**Inicio estilos mensaje enviado**/
+.mensaje-enviado{
+  background-color:#1f86fc!important;
+  height: 500px!important;
+}
+.mensaje-exito{
+  background-color: white!important;
+  
+}
+
+/**Fin estilos mensaje  enviado**/
