@@ -54,7 +54,7 @@ body {
  
   .redes a{
     color:white !important;
-    font-size: 26px !important;
+    font-size: 26px!important;
   
   }
   
@@ -69,7 +69,7 @@ body {
   
   .adress label{
     color:white;
-    font-size: 26px;
+    font-size:26px;
     left:32px;
   }
   
@@ -79,8 +79,9 @@ body {
   
   .adress p {
     color:white;
-    font-size:16px;
+    font-size:18px!important;
   }
+  
   
   /*fin estilos componente
   
@@ -180,7 +181,21 @@ body {
       font-weight: bold;
 
     }
+    .cotizar-1{
+      background-color: #024cb5!important;
+    }
 
+
+    .cotizar-1 h1{
+      color:white !important ;
+      font-weight: bold;
+
+    }
+    .cotizar-1 p{
+      color:white !important ;
+      font-weight: bold;
+
+    }
     .agendar-boton{
     background-color:#f5c205!important;
     Color:black!important;
@@ -196,7 +211,21 @@ body {
       box-shadow: rgba(0,0,0,0.7)!important;
   
       }
-  
+
+      .video h4{
+        color:white;
+
+      }
+      .video h5{
+        color:white;
+        
+      }
+
+      .video a{
+        color:black;
+
+      }
+    
     
     /*Fin estilos componente agendar*/
     
@@ -301,6 +330,11 @@ body {
     background-color: white;
     color:#024cb5;
   
+  }
+  .beneficios h3{
+    color:white!important;
+    font-weight: 600!important;
+    
   }
   /*Fin estilos componente Beneficios*/
   

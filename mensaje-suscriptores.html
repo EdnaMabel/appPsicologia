@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
   <link rel="stylesheet" href="Iconos/css/fontello.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- <!--Inicio link favicon-->
+
+    <!--Inicio link favicon-->
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -20,17 +22,6 @@
 <meta name="msapplication-config" content="favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 <!--Fin links favicon-->
-
-
-<style>
-  .slider{
-  background:url("imagenes/slider-blog.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-
-}
-</style>
 
 </head>
 <body>
@@ -123,91 +114,25 @@
         
           <!--Fin  navbar-->
 
+        <!--inicio componente formulario-->
 
-      <!--INICIO COMPONENTE BLOG-->
-
-      <div class="container-fluid slider d-flex flex-column  justify-content-center align-items-center">
-         <div class="text-center ">
-          <h3 class="display-5"> ¿Quieres recibir los mejores contenidos sobre salud Emocional y Bienestar? </h3>
-              
-          <p class="font-italic font-weight-bold">¡Regístrate a nuestra newsletter!</p>
-         </div>
+        <div class="container-fluid text-center justify-content-center d-flex align-items-center mensaje-enviado">
      
-        <form action="suscriptores.php" method="POST" class="form-inline justify-content-center d-flex flex-column flex-sm-row">
-          <div class="form-group mr-4">
-            <input type="text" placeholder="Escribe aquí tu correo" class="form-control" name="correo" required>
-          </div>
-          <div class="form-group">
-            <input type="submit" class="btn boton-slider" value="Enviar">
-          </div>
-         
-        </form>
-
-      </div>
-      
-      
- 
-
-
-
-      <!--fIN COMPONENTE BLOG-->
-
-      <!--Inicio MAIN BLOG-->
-    <div class="container">
-      <h3>Blog</h3>
-      <p class="lead">Created by Edna Mabel García García</p>
-      <hr>
-      <br>
-        <!--inicio articulos blog-->
-      <div class="row d-flex justify-content-center">
-          <div class="card mr-5 mb-2" style="width: 18rem;">
-            <img src="imagenes/blog-colegio.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">¿Buscas Colegio Personalizado para tu hijo?</h5>
-              <p class="card-text">Los niños con trastorno de déficit de Atención e Hiperactividad suelen tener problemas comportamentales y de aprendizaje, lo cual dificulta su desempeño en el aula de clase y la relación con profesores y compañeros.</p>
-              <a href="blog_colegio.html" class="btn btn-primary">Leer más</a>
-            </div>
-          </div>
-  
-          <div class="card mr-5 mb-2 " style="width: 18rem;">
-            <img src="imagenes/blog-miofuncional.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">¿Qué es la terapia Miofuncional?</h5>
-              <p class="card-text">
-                ¿Sabe usted que es la terapia miofuncional (TMF) y en qué casos se debe utilizar? Con este pequeño artículo trataremos de explicar de forma sencilla que es la terapia miofuncional y en qué momento acudir al fonoaudiólogo en caso de necesitarlo.
-                </p>
-              <a href="blog_miofuncional.html" class="btn btn-primary">Leer más</a>
-            </div>
-          </div>
-          <div class="card mr-5 mb-2 " style="width: 18rem;">
-            <img src="imagenes/blog-lenguaje.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">¿Cómo podemos estimular el lenguaje en un niño?</h5>
-              <p class="card-text">Los niños desde su nacimiento se ven en la necesidad de expresar sus deseos y suplir sus necesidades a través del lenguaje, durante los primeros  meses de vida   su principal fuente de expresión es el llanto, acompañado de  sonrisa, balbuceos.</p>
-              <a href="blog_lenguaje.html" class="btn btn-primary">Leer más</a>
-            </div>
-          </div>
-        
-
-      
-        
-      </div>
        
-          
-          
+                <div class="alert alert-info container mensaje-exito" role="alert">
+                    <h3>Hola! Gracias por suscribirte a nuestro newsletter. Muy pronto comenzarás a recibir correos con lo mejor de nuestro contenido, eventos y promociones.</h3>
+                    <a href="blog.html">Volver al Blog</a>
+                  </div>
+
+        
+
+        </div>
 
     
 
-        
-        
-        <!--fin articulos blog-->
-        
-    
-    </div>
-      <!--FIN MAIN BLOG-->
+        <!--fin componente formulario-->
 
-    <br>
-    <br>
+
 
 
 
@@ -248,8 +173,7 @@
       <br>
       <br>
       <br>
-    
-    
+     
       <div class=" row d-flex justify-content-center ml-md-5">
           <div class="col-md-4 mb-5">
               <div class="d-inline">
@@ -323,13 +247,16 @@
   
   
   <!--FIN COMPONENTE FOOTER-->
+  
+
+    
           
    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
- 
-  <!--Start of Tawk.to Script-->
+
+    <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
   (function(){
@@ -342,6 +269,5 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
-  </body>
-
+</body>
 </html>
