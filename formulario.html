@@ -23,27 +23,45 @@
 <meta name="theme-color" content="#ffffff">
 <!--Fin links favicon-->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168213442-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168213442-1');
+</script>
+
+<!-- Fin Global site tag (gtag.js) - Google Analytics -->
+
+
 </head>
 <body>
+  <!-- inicio barra de  direccion y redes sociales -->
   <div class="container-fluid">
     <div class="top-fixed">
-      <div class=" barra nav row">
-      
-        <div class=" col-12 col-md-6 font-weight-bold d-flex d-flex-row adress mt-1">
-           <label class="icon-home ml-md-5"></label> <p class="mt-2">Consultorio: Cra 10B # 182 A 48, Usaquén Bogotá, Colombia</p>
-        </div>
+        <div class=" barra nav row">
         
-        <div class=" col-12 col-md-4 font-weight-bold d-flex d-flex-row adress mt-1"><label class="icon-phone"> </label> <p class="mt-2">Teléfono: 3017710142</p></div>
-        <div class=" col-12 redes col-md-2 justify content-end mt-2">
-            <a href="https://www.facebook.com/" target="_blank"><label class="icon-facebook"></label></a>
-            <a href="https://twitter.com/" target="_blank"><label class="icon-twitter"></label></a>
-            <a href="https://www.instagram.com/" target="_blank"><label class="icon-instagram"></label></a>
-            <a href="https://www.instagram.com/" target="_blank"><label class="icon-whatsapp"></label></a>
-             
-    </div>
-    
-    
-    </div>
+          <div class=" col-12 col-md-6 font-weight-bold d-flex d-flex-row adress mt-1">
+             <label class="icon-home ml-md-5"></label> <p class="mt-2">Consultorio: Cra 10B # 182 A 48, Usaquén Bogotá, Colombia</p>
+          </div>
+          
+          <div class=" col-12 col-md-4 font-weight-bold d-flex d-flex-row adress mt-1"><label class="icon-phone"> </label> <p class="mt-2">Teléfono: 3017710142</p></div>
+          <div class=" col-12 redes col-md-2 justify content-end mt-2">
+              <a href="https://www.facebook.com/misterapias.co" target="_blank"><label class="icon-facebook"></label></a>
+              <a href="https://twitter.com/MisterapiasCo" target="_blank"><label class="icon-twitter"></label></a>
+              <a href="https://www.instagram.com/misterapias.co/" target="_blank"><label class="icon-instagram"></label></a>
+              <a href="https://api.whatsapp.com/send?phone=573017710142&text=Buen%20d%C3%ADa!!!%20Sol%C3%ADcito%20informaci%C3%B3n%20sobre%20terapias." target="_blank"><label class="icon-whatsapp"></label></a>
+               
+      </div>
+      
+      
+      </div>
+
+
+
+     <!-- Fin barra de  direccion y redes sociales -->
         
          <!--inicio  navbar-->
 
@@ -121,10 +139,10 @@
           <div class="container">
             <div class="row container">
                 <div class=" col col-12 col-md-12 ml-3">
-                    <form action="enviar.php" method="POST" class=" descripcion  py-5 rounded my-5">
+                    <form action="enviar.php" method="POST" class=" descripcion  py-5 rounded my-5 ml-md-5 mr-md-5">
                       <h3 class="text-center ml-2 mr-2">Agenda tu primera cita Aquí</h3>
-                      <div class="row  mt-5  mx-2 d-flex flex-column flex-sm-row "> 
-                        <div class=" form-group col">
+                      <div class="row  mt-5  mx-2 d-flex flex-column flex-sm-row  ml-md-3 mr-md-3"> 
+                        <div class=" mb-1 col">
                           <input type="text" class="form-control" placeholder="Nombres" name="nombre" required>
                         </div>
                         <div class="col">
@@ -132,8 +150,8 @@
                         </div>
                       </div>
 
-                      <div class=" row my-2 mx-2 d-flex flex-column flex-sm-row">
-                        <div class=" form-group col">
+                      <div class=" row my-1 mx-2 d-flex flex-column flex-sm-row  ml-md-3 mr-md-3">
+                        <div class="mb-1 col">
                           <input type="email" class="form-control" placeholder="Correo" name="correo" required>
                         </div>
                         <div class="col">
@@ -141,8 +159,8 @@
                         </div>
                       </div>
 
-                      <div class="row my-2 mx-2 d-flex flex-column flex-sm-row">
-                        <div class="form-group col">
+                      <div class="row my-1 mx-2 d-flex flex-column flex-sm-row  ml-md-3 mr-md-3">
+                        <div class=" mb-1 col">
                       
                           <select id="inputState" class="form-control" name="servicio">
                             <option selected>Seleccionar Servicio</option>

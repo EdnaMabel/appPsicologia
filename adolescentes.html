@@ -26,27 +26,45 @@
 <meta name="theme-color" content="#ffffff">
 <!--Fin links favicon-->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168213442-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168213442-1');
+</script>
+
+<!-- Fin Global site tag (gtag.js) - Google Analytics -->
+
+
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="top-fixed">
-      <div class=" barra nav row">
-      
-        <div class=" col-12 col-md-6 font-weight-bold d-flex d-flex-row adress mt-1">
-           <label class="icon-home ml-md-5"></label> <p class="mt-2">Consultorio: Cra 10B # 182 A 48, Usaquén Bogotá, Colombia</p>
+    <!-- inicio barra de  direccion y redes sociales -->
+    <div class="container-fluid">
+      <div class="top-fixed">
+          <div class=" barra nav row">
+          
+            <div class=" col-12 col-md-6 font-weight-bold d-flex d-flex-row adress mt-1">
+               <label class="icon-home ml-md-5"></label> <p class="mt-2">Consultorio: Cra 10B # 182 A 48, Usaquén Bogotá, Colombia</p>
+            </div>
+            
+            <div class=" col-12 col-md-4 font-weight-bold d-flex d-flex-row adress mt-1"><label class="icon-phone"> </label> <p class="mt-2">Teléfono: 3017710142</p></div>
+            <div class=" col-12 redes col-md-2 justify content-end mt-2">
+                <a href="https://www.facebook.com/misterapias.co" target="_blank"><label class="icon-facebook"></label></a>
+                <a href="https://twitter.com/MisterapiasCo" target="_blank"><label class="icon-twitter"></label></a>
+                <a href="https://www.instagram.com/misterapias.co/" target="_blank"><label class="icon-instagram"></label></a>
+                <a href="https://api.whatsapp.com/send?phone=573017710142&text=Buen%20d%C3%ADa!!!%20Sol%C3%ADcito%20informaci%C3%B3n%20sobre%20terapias." target="_blank"><label class="icon-whatsapp"></label></a>
+                 
         </div>
         
-        <div class=" col-12 col-md-4 font-weight-bold d-flex d-flex-row adress mt-1"><label class="icon-phone"> </label> <p class="mt-2">Teléfono: 3017710142</p></div>
-        <div class=" col-12 redes col-md-2 justify content-end mt-2">
-            <a href="https://www.facebook.com/" target="_blank"><label class="icon-facebook"></label></a>
-            <a href="https://twitter.com/" target="_blank"><label class="icon-twitter"></label></a>
-            <a href="https://www.instagram.com/" target="_blank"><label class="icon-instagram"></label></a>
-            <a href="https://www.instagram.com/" target="_blank"><label class="icon-whatsapp"></label></a>
-             
-    </div>
-    
-    
-    </div>
+        
+        </div>
+
+
+
+       <!-- Fin barra de  direccion y redes sociales -->
         
           <!--inicio  navbar-->
 
@@ -165,7 +183,7 @@
             <div class=" col col-12 col-md-5 ml-2">
               <form action="enviar.php" method="POST" class=" descripcion py-3 rounded mr-3 my-5">
                 <h3 class="text-center">Agenda tu primera cita Aquí</h3>
-                <div class="row mb-2 mt-3 mx-2 d-flex flex-column flex-sm-row "> 
+                <div class="row mb-1 mt-3 mx-2 d-flex flex-column flex-sm-row "> 
                   <div class="col mb-1">
                     <input type="text" class="form-control" placeholder="Nombres" name="nombre" required>
                   </div>
@@ -181,8 +199,8 @@
                     <input type="Tel" class="form-control" placeholder="Teléfono" name="telefono" required>
                   </div>
                 </div>
-                <div class="row my-2 mx-2 d-flex flex-column flex-sm-row ">
-                  <div class="form-group col">
+                <div class="row my-1 mx-2 d-flex flex-column flex-sm-row ">
+                  <div class="col mb-1">
                 
                     <select id="inputState" class="form-control" name="servicio">
                       <option selected>Seleccionar Servicio</option>
@@ -279,39 +297,39 @@
           
             <br>
             <br>
-            <h1 class="text-center">¿Cómo adquirir nuestros servicios?</h1>
+            <h1 class="text-center mt-md-5">¿Cómo adquirir nuestros servicios?</h1>
             <br>
             <h2 class="text-left ml-5">Solicita tu servicio de Asesoría Terapeutica con estos sencillos pasos: </h2>
             <br>
             <br>
 
-            <div class="ml-5"> 
+            <div class="ml-md-5 d-flex d-inline"> 
           
-                <div class="d-inline"><img src="imagenes/one.png" alt="one" width="50px" height="50px"></div>
-                <div class="d-inline"><p class="d-inline">   Cuéntanos tu motivo de consulta.</p>  </div>
+                <div><img src="imagenes/one.png" alt="one" width="50px" height="50px"></div>
+                <div><p class="ml-3 mt-1 mt-md-3 ">   Cuéntanos tu motivo de consulta.</p>  </div>
         
             </div>
             <br>
             <br>
 
-            <div class="ml-5 "> 
-                <div class="d-inline"> <img src="imagenes/two.png" alt="two" width="50px" height="50px"> </div> 
-                <div class="d-inline "><p class="d-inline text-break ">   Escoge la modalidad que más se acomode a tus necesidades: 
+            <div class="ml-md-5 d-flex d-inline"> 
+                <div> <img src="imagenes/two.png" alt="two" width="50px" height="50px"> </div> 
+                <div> <p class=" ml-3 mt-1 mt-md-3">   Escoge la modalidad que más se acomode a tus necesidades: 
                     Consultorio, Domicilio u Online.</p></div> 
             </div>
           
            <br>
            <br>
-          <div class="ml-5">
-            <div class="d-inline"><img src="imagenes/three (1).png" alt="four" width="50px" height="50px"></div> 
-            <div class="d-inline"><p class="d-inline">   Escoge los horarios y fecha de  tu interés.</p> </div>
+          <div class="ml-md-5 d-flex d-inline">
+            <div ><img src="imagenes/three (1).png" alt="four" width="50px" height="50px"></div> 
+            <div ><p class="ml-3 mt-1 mt-md-3">   Escoge los horarios y fecha de  tu interés.</p> </div>
          </div>
 
          <br>
-         <br>
-        <div class="ml-5">
-            <div class="d-inline"><img src="imagenes/four.png" alt="one" width="50px" height="50px"></div>
-            <div class="d-inline"><p class="d-inline">   Recibe el servicio de asesoría por Psicología, Terapia Ocupacional o Fonoaudiología.</p> </div>
+        <br>
+        <div class="ml-md-5 d-flex d-inline">
+            <div ><img src="imagenes/four.png" alt="one" width="50px" height="50px"></div>
+            <div ><p class="ml-3 mt-1 mt-md-3">   Recibe el servicio de asesoría por Psicología, Terapia Ocupacional o Fonoaudiología.</p> </div>
         </div>
         <br>
 
@@ -323,6 +341,7 @@
             <img src="imagenes/Chica.jpg" alt="Responsive image" class="img-fluid" style="height:auto; width: 90%;" >
     
         </div>
+        
     
     </div>
 
@@ -333,6 +352,8 @@
 <br>
 
 <!--FIN COMPONENTE AGENDAR-->
+
+
 <!--INICIO COMPONENTE TESTIMONIOS-->
 <div class="container-fluid">
   <br>
